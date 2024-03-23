@@ -1,0 +1,16 @@
+.banner-right{
+  background-image: url(./images/banner2.png);
+  animation: change 100s infinite;
+}
+
+@keyframes change{
+  0%{
+    background-image: url(./images/banner2.png);
+  }
+  100%{
+    background-image: url(./images/banner3.png);
+  }
+  
+
+}
+
